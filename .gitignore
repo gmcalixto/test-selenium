@@ -1,0 +1,98 @@
+# ===== Python bytecode & cache =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Ambientes virtuais =====
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.venv*/
+.python-venv*/
+
+# ===== Builds & distribuição =====
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# ===== Testes & coverage =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.tox/
+.nox/
+
+# ===== Linters / type checkers =====
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.dmypy.json
+pyrightcache/
+
+# ===== Hypothesis =====
+.hypothesis/
+
+# ===== Logs =====
+*.log
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+.profile
+# Saídas exportadas grandes (opcional)
+*.nbconvert.ipynb
+
+# ===== Ferramentas de docs =====
+site/
+docs/_build/
+
+# ===== Configs & segredos locais (ajuste conforme necessário) =====
+# CUIDADO: só ignore .env se você não versiona configs de dev
+.env
+.env.*
+*.env
+
+# ===== Frameworks web (opcional) =====
+# Django:
+*.sqlite3
+media/
+staticfiles/
+# Flask:
+instance/
+*.db
+
+# ===== SO / editores =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Linux
+*~
+
+# VS Code (geralmente pode versionar settings específicos do projeto)
+.vscode/
+# JetBrains / PyCharm
+.idea/
+# Outros
+*.swp
+*.swo
+
+# ===== Docker / Compose (opcional) =====
+# Descomente se gerar artefatos locais
+# .docker/
+# docker-data/
+
+# ===== Arquivos tempo
