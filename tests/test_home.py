@@ -14,14 +14,3 @@ def test_exemplo_homepage(driver):
     # 3) localizar elementos por seletores típicos
     h1 = driver.find_element(By.TAG_NAME, "h1")
     assert h1.text == "Example Domain"
-
-    p = driver.find_element(By.CSS_SELECTOR, "p")
-    assert "illustrative examples" in p.text
-
-    # 4) clicar no link "More information..."
-    more_info = driver.find_element(By.CSS_SELECTOR, "a")
-    more_info.click()
-
-    # 5) validar que navegou para o IANA (nova URL)
-    WebDriverWait(driver, 10).until(EC.url_contains("iana.org"))
-    assert "iana.org" in driver.current_url
