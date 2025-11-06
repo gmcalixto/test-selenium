@@ -46,3 +46,9 @@ Escolha **um segundo site** que envolva **interação com fluxo de ações ou mu
 5. Encerrar o navegador corretamente ao final do teste.  
 
 ### Entrega: 12/11
+
+1. Os testes desenvolvidos devem estar na pasta tests
+
+2. Para executar os testes o ambiente virtual deve estar ativado e as bibliotecas instaladas
+
+3. O Firefox deve estar instalado no computador
